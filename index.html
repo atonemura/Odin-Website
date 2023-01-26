@@ -9,7 +9,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap" rel="stylesheet">
-    <title>Let's Fucking Go!</title>
+    <link rel="icon" href="/home/atonemura/website/Odin-Website/img/terrace.png" type="icon/terrace">
+    <title>Tonemura Beach Resort and Restaurant</title>
 </head>
 
 <body>
@@ -21,7 +22,7 @@
                 <li><a href="room">Rooms</a></li>
                 <li><a href="food">Food</a></li>
                 <li><a href="gallery">Gallery</a></li>
-                <li><a href="book">Book</a></li>
+                <li><a href="book" id="top-book">Book</a></li>
             </ul>
         </div>
     </div>
@@ -46,15 +47,88 @@
     <div class="content">
         <div class="border-1">
             <div class="home">
-                <img src="/home/atonemura/website/Odin-Website/img/s-well-oj0zeY2Ltk4-unsplash.jpg" alt="chill"    class="chill">
-                <div class="middle">
-                    <div class="Home">Home</div>
+                <img src="/home/atonemura/website/Odin-Website/img/s-well-oj0zeY2Ltk4-unsplash.jpg" alt="chill"
+                    class="chill">
+                <div class="middle-1">
+                    <div class="home-1">Home</div>
                 </div>
                 <div class="home-text">
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusamus libero ut voluptatum eveniet modi. Velit veritatis labore aperiam itaque, amet quam quae rerum mollitia reiciendis, tenetur officiis sapiente deserunt in.
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusamus libero ut voluptatum eveniet
+                        modi. Velit veritatis labore aperiam itaque, amet quam quae rerum mollitia reiciendis, tenetur
+                        officiis sapiente deserunt in.
                     </p>
                 </div>
             </div>
+        </div>
+        <div class="border-2">
+            <div class="rooms">
+                <img src="/home/atonemura/website/Odin-Website/img/sasha-kaunas-Fk9d0cxYqC4-unsplash.jpg" alt="bed" class="bed">
+                <div class="middle-2">
+                    <div class="room-bed">Rooms</div>
+                </div>
+                <div class="room-text">
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusamus libero ut voluptatum eveniet
+                        modi. Velit veritatis labore aperiam itaque, amet quam quae rerum mollitia reiciendis, tenetur
+                        officiis sapiente deserunt in.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="border-3">
+            <div class="food">
+                <img src="/home/atonemura/website/Odin-Website/img/alexandru-bogdan-ghita-UeYkqQh4PoI-unsplash.jpg" alt="bbq" class="bbq">
+                <div class="middle-3">
+                    <div class="food-bbq">Food</div>
+                </div>
+                <div class="food-text">
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusamus libero ut voluptatum eveniet
+                        modi. Velit veritatis labore aperiam itaque, amet quam quae rerum mollitia reiciendis, tenetur
+                        officiis sapiente deserunt in.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="border-4">
+            <div class="gallery">
+                <img src="/home/atonemura/website/Odin-Website/img/ethan-robertson-SYx3UCHZJlo-unsplash.jpg" alt="pictures" class="pics">
+                <div class="middle-4">
+                    <div class="gallery-pics">Gallery</div>
+                </div>
+                <div class="gallery-text">
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusamus libero ut voluptatum eveniet
+                        modi. Velit veritatis labore aperiam itaque, amet quam quae rerum mollitia reiciendis, tenetur
+                        officiis sapiente deserunt in.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="booking-form">
+            <form action="book-room">
+                <h2 class="search-rooms">Search for available rooms!</h2>
+                <ol>
+                    <li> 
+                        <label for="checkin">Check-in:</label>
+                        <input type="date" id="checkin-date">
+                    </li>
+                    <li> 
+                        <label for="checkout">Check-out:</label>
+                        <input type="date" id="checkout-date">
+                    </li>
+                    <li> 
+                        <label for="guests">Guests:</label>
+                        <input type="number" id="guest-count" placeholder="Number of Guests">
+                    </li>
+                    <li> 
+                        <label for="kids">Kids:</label>
+                        <input type="number" id="kid-count" placeholder="Number of Children">
+                    </li>
+                    <div class="submit-button">
+                        <li> 
+                            <input type="submit" value="Submit" name="Submit">
+                        </li>
+                    </div>
+                </ol>
+            </form>
         </div>
     </div>
 
